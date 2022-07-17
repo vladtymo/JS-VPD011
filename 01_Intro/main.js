@@ -76,3 +76,19 @@ for (const key in array) {
 for (const value of array) {
     console.log(value);
 }
+
+// -=-=-=-=-=-=-=-=- functions -=-=-=-=-=-=-=-=-
+
+// function declaration
+function showMessage(text) {
+    console.log("Your message: " + text);
+}
+
+showMessage("hello functions on JS!");
+
+// function expression
+const mult = function (a, b) { return a * b; }
+// arrow function
+const div = (a, b) => a / b;
+
+console.log("Multiple of 3 * 5 = " + mult(3, 5));
