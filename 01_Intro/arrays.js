@@ -1,4 +1,4 @@
-// --------------- Arrays ---------------
+// -=-=-=-=-=-=-=-=- arrays -=-=-=-=-=-=-=-=-
 let obj = new Object();
 
 // initialization type 1
@@ -15,6 +15,7 @@ for (let i = 0; i < array.length; i++) {
 }
 
 // initialization type 2
+var array = []; // empty array
 var array = [3, -5, 123, 44, -1, 23, 123, 66]; // Lenght: 8
 
 array[0] = 44;
