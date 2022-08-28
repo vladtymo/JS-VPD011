@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+}
+
+form {
+    margin: 10px 0;
+}
+
+.new-product {
+    font-weight: bold;
+}
